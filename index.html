@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CashEase is a modern e-wallet platform that helps you manage, transfer, and control your finances easily and securely.">
+        <meta name="keywords" content="CashEase, eWallet, finance app, money transfer, digital wallet">
+        <meta name="author" content="CashEase">
+        <meta name="robots" content="index, follow">
+
+        <!-- =============== Title =============== -->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <title>CashEase – Managing Your Personal Finances Made Easier</title>
+
+        <!-- =============== Google Fonts =============== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+
+        <!-- =============== Ionicons =============== -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <!-- =============== Custom Link =============== -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <!-- =============== HEADER START =============== -->
+        <header class="ce-header" id="ceHeader">
+            <div class="ce-container ce-nav">
+
+                <a href="#" class="ce-logo" aria-label="CashEase Home">
+                    <img src="images/logo.png" alt="CashEase brand logo">
+                </a>
+
+                <nav class="ce-menu" id="ceMenu" aria-label="Primary navigation">
+                    <a class="ce-navlink is-active" href="#" aria-current="page">Home</a>
+                    <a class="ce-navlink" href="#features">Features</a>
+                    <a class="ce-navlink" href="#about">About Us</a>
+                    <a class="ce-navlink" href="#testimonial">Testimonial</a>
+                    <a class="ce-navlink" href="#faq">FAQs</a>
+                </nav>
+
+                <a href="#contact" class="ce-btn ce-btn--pill ce-btn--light ce-desktop-cta"
+                    aria-label="Open contact section">
+                    Contact Us
+                </a>
+
+                <button class="ce-menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+                    <ion-icon id="ceToggleIcon" name="menu-outline"></ion-icon>
+                </button>
+
+            </div>
+        </header>
+        <!-- =============== HEADER END =============== -->
+
+
+        <main>
+            <!-- =============== SECTION HERO START =============== -->
+            <section class="ce-hero" aria-label="CashEase hero section">
+                <div class="ce-container ce-hero-inner">
+            
+                    <div class="ce-hero-content">
+                        <span class="ce-badge">
+                            <img src="images/sparkle.png" alt="Sparkle">
+                            Welcome to a Modern Financial Experience
+                        </span>
+            
+                        <h1>
+                            Managing Your Personal Finances Made Easier
+                        </h1>
+            
+                        <p>
+                            Elevate your financial experience with CashEase. We simplify how you pay,
+                            transfer money, and manage your finances, giving you full control over your money.
+                        </p>
+            
+                        <div class="ce-store-buttons" aria-label="Download buttons">
+                            <a class="ce-store" href="#" aria-label="Get CashEase on Google Play">
+                                <img src="images/google-play.png" alt="Get CashEase on Google Play">
+                            </a>
+            
+                            <a class="ce-store" href="#" aria-label="Download CashEase on the App Store">
+                                <img src="images/app-store.png" alt="Download CashEase on the App Store">
+                            </a>
+                        </div>
+                    </div>
+            
+                    <div class="ce-hero-mockup">
+                        <img class="ce-app-shot" src="images/mobile-app.png" alt="CashEase mobile app interface preview">
+                    </div>
+            
+                </div>
+            </section>
+            <!-- =============== SECTION HERO END =============== -->
+             
+
+            <!-- =============== SECTION SUPPORT BY START =============== -->
+            <section class="ce-support" aria-label="Support by brands">
+                <div class="ce-container">
+            
+                    <p class="ce-support-title">Support By</p>
+            
+                    <div class="ce-support-logos" role="list" aria-label="Supported brands">
+                        <div class="ce-support-logo" role="listitem">
+                            <img src="images/google.png" alt="Google logo">
+                        </div>
+            
+                        <div class="ce-support-logo" role="listitem">
+                            <img src="images/afterpay.png" alt="Afterpay logo">
+                        </div>
+            
+                        <div class="ce-support-logo" role="listitem">
+                            <img src="images/asana.png" alt="Asana logo">
+                        </div>
+            
+                        <div class="ce-support-logo" role="listitem">
+                            <img src="images/dropbox.png" alt="Dropbox logo">
+                        </div>
+            
+                        <div class="ce-support-logo" role="listitem">
+                            <img src="images/spotify.png" alt="Spotify logo">
+                        </div>
+            
+                        <div class="ce-support-logo" role="listitem">
+                            <img src="images/grammarly.png" alt="Grammarly logo">
+                        </div>
+                    </div>
+            
+                </div>
+            </section>
+            <!-- =============== SECTION SUPPORT BY END =============== -->
+
+
+            <!-- =============== SECTION BENEFITS START =============== -->
+            <section class="ce-benefits" id="features" aria-label="CashEase benefits section">
+                <div class="ce-container">
+            
+                    <div class="ce-benefits-head">
+                        <div class="ce-benefits-badge">
+                            <span class="ce-benefits-badgeIcon" aria-hidden="true">
+                                <img src="images/benefit-star.png" alt="">
+                            </span>
+                            <span>Awesome Benefit From Us</span>
+                        </div>
+            
+                        <h2 class="ce-benefits-title">
+                            Simple, Swift, and Secure,<br>
+                            Why You Should Choose Us
+                        </h2>
+                    </div>
+            
+                    <div class="ce-benefits-grid">
+            
+                        <article class="ce-benefits-item">
+                            <div class="ce-benefits-iconWrap" aria-hidden="true">
+                                <img src="images/benefit-shield.png" alt="Benefit Shield">
+                            </div>
+                            <h3 class="ce-benefits-itemTitle">Fast and Secure<br>Transactions</h3>
+                            <p class="ce-benefits-itemText">
+                                Enjoy secure and instant payments anywhere, anytime. CashEase gives you peace of mind.
+                            </p>
+                        </article>
+            
+                        <article class="ce-benefits-item">
+                            <div class="ce-benefits-iconWrap" aria-hidden="true">
+                                <img src="images/benefit-support.png" alt="Benefit Support">
+                            </div>
+                            <h3 class="ce-benefits-itemTitle">24/7 Customer<br>Support</h3>
+                            <p class="ce-benefits-itemText">
+                                Our team is ready to assist you anytime. If you have questions or issues, don't hesitate to
+                                contact
+                                us.
+                            </p>
+                        </article>
+            
+                        <article class="ce-benefits-item">
+                            <div class="ce-benefits-iconWrap" aria-hidden="true">
+                                <img src="images/benefit-promo.png" alt="Benefit Promo">
+                            </div>
+                            <h3 class="ce-benefits-itemTitle">Exclusive Promos<br>and Discounts</h3>
+                            <p class="ce-benefits-itemText">
+                                Exclusive app promos, discounts, cashback; save, feel benefits in your wallet.
+                            </p>
+                        </article>
+            
+                        <article class="ce-benefits-item">
+                            <div class="ce-benefits-iconWrap" aria-hidden="true">
+                                <img src="images/benefit-chart.png" alt="Benefit Chart">
+                            </div>
+                            <h3 class="ce-benefits-itemTitle">Easy Financial<br>Management</h3>
+                            <p class="ce-benefits-itemText">
+                                Effortlessly manage finances, track expenses, set budgets, and invest with our e-wallet app.
+                            </p>
+                        </article>
+            
+                    </div>
+                </div>
+            </section>
+            <!-- =============== SECTION BENEFITS END =============== -->
+
+
+            <!-- =============== SECTION ABOUT START =============== -->
+            <section class="ce-trans" id="about" aria-label="All transactions section">
+                <div class="ce-container">
+                    <div class="ce-trans-inner">
+            
+                        <div class="ce-trans-left">
+                            <div class="ce-trans-badge">
+                                <span class="ce-trans-badgeIcon" aria-hidden="true">
+                                    <img src="images/benefit-star.png" alt="">
+                                </span>
+                                <span>Anywhere, Anytime with CashEase</span>
+                            </div>
+            
+                            <h2 class="ce-trans-title">
+                                All Transactions Easily on Your Mobile
+                            </h2>
+            
+                            <p class="ce-trans-text">
+                                Paying for anything is as easy as a tap. With CashEase, you can effortlessly handle a wide range
+                                of
+                                transactions, from bill payments and barcode scans to e-commerce
+                            </p>
+            
+                            <a href="#" class="ce-trans-btn" aria-label="Download Apps">Download Apps</a>
+                        </div>
+            
+                        <div class="ce-trans-right">
+                            <div class="ce-trans-visual">
+            
+                                <div class="ce-trans-circle" aria-hidden="true"></div>
+            
+                                <img class="ce-trans-phone" src="images/mobile-app-2.png" alt="CashEase mobile app screen">
+            
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            <!-- =============== SECTION ABOUT END =============== -->
+
+
+            <!-- =============== SECTION TESTIMONIALS START =============== -->
+            <section class="ce-tm" id="testimonial" aria-label="Testimonials">
+                <img class="ce-tm-bg ce-tm-bg--left" src="images/tm-bg-left.png" alt="" aria-hidden="true">
+                <img class="ce-tm-bg ce-tm-bg--right" src="images/tm-bg-right.png" alt="" aria-hidden="true">
+            
+                <div class="ce-container">
+                    <div class="ce-tm-head">
+                        <div class="ce-tm-badge">
+                            <span class="ce-tm-badgeIcon" aria-hidden="true">
+                                <img src="images/sparkle.png" alt="Testimonial icon">
+                            </span>
+                            <span>Testimonial</span>
+                        </div>
+            
+                        <h2 class="ce-tm-title">What Our Happy User Says</h2>
+                    </div>
+            
+                    <div class="ce-tm-slider" data-ce-tm>
+                        <div class="ce-tm-viewport">
+                            <div class="ce-tm-track">
+            
+                                <article class="ce-tm-card">
+                                    <p class="ce-tm-text">
+                                        I really like this e-wallet app because it's incredibly convenient. I can make payments with
+                                        just a few taps on my phone.
+                                        It's very user-friendly, even for people who aren't very tech-savvy.
+                                    </p>
+                                    <div class="ce-tm-foot">
+                                        <div class="ce-tm-user">
+                                            <img class="ce-tm-avatar" src="images/user-1.png" alt="Putriana Sari avatar">
+                                            <div class="ce-tm-meta">
+                                                <div class="ce-tm-name">Putriana Sari</div>
+                                                <div class="ce-tm-stars" aria-label="5 out of 5 stars">
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+            
+                                <article class="ce-tm-card">
+                                    <p class="ce-tm-text">
+                                        I feel secure using this e-wallet app. They have multiple layers of security, including
+                                        two-factor authentication,
+                                        so I never worry about my data or money being compromised.
+                                    </p>
+                                    <div class="ce-tm-foot">
+                                        <div class="ce-tm-user">
+                                            <img class="ce-tm-avatar" src="images/user-2.png" alt="Farhan Ibrahim avatar">
+                                            <div class="ce-tm-meta">
+                                                <div class="ce-tm-name">Farhan Ibrahim</div>
+                                                <div class="ce-tm-stars" aria-label="5 out of 5 stars">
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+            
+                                <article class="ce-tm-card">
+                                    <p class="ce-tm-text">
+                                        I once encountered an issue with my transaction, but the customer support team from this
+                                        e-wallet app was extremely helpful.
+                                        They quickly resolved my problem and provided clear guidance.
+                                    </p>
+                                    <div class="ce-tm-foot">
+                                        <div class="ce-tm-user">
+                                            <img class="ce-tm-avatar" src="images/user-3.png" alt="Rizky Firmansyah avatar">
+                                            <div class="ce-tm-meta">
+                                                <div class="ce-tm-name">Rizky Firmansyah</div>
+                                                <div class="ce-tm-stars" aria-label="5 out of 5 stars">
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+            
+                                <article class="ce-tm-card">
+                                    <p class="ce-tm-text">
+                                        This e-wallet app isn't limited to just one payment method. They support various methods,
+                                        including credit cards, debit cards,
+                                        and bank transfers, so I can choose the most convenient way for me.
+                                    </p>
+                                    <div class="ce-tm-foot">
+                                        <div class="ce-tm-user">
+                                            <img class="ce-tm-avatar" src="images/user-4.png" alt="Melati Wulandari avatar">
+                                            <div class="ce-tm-meta">
+                                                <div class="ce-tm-name">Melati Wulandari</div>
+                                                <div class="ce-tm-stars" aria-label="4 out of 5 stars">
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-empty" name="star-outline"></ion-icon>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+            
+                                <article class="ce-tm-card">
+                                    <p class="ce-tm-text">
+                                        The interface is clean and simple. I can see my balance, track spending, and pay bills
+                                        without getting lost in menus.
+                                        Everything feels fast and smooth.
+                                    </p>
+                                    <div class="ce-tm-foot">
+                                        <div class="ce-tm-user">
+                                            <img class="ce-tm-avatar" src="images/user-5.png" alt="Nadia Rahman avatar">
+                                            <div class="ce-tm-meta">
+                                                <div class="ce-tm-name">Nadia Rahman</div>
+                                                <div class="ce-tm-stars" aria-label="5 out of 5 stars">
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+            
+                                <article class="ce-tm-card">
+                                    <p class="ce-tm-text">
+                                        Transfers are super quick. I send money to friends and it arrives instantly. The
+                                        confirmation and history logs are also very clear.
+                                    </p>
+                                    <div class="ce-tm-foot">
+                                        <div class="ce-tm-user">
+                                            <img class="ce-tm-avatar" src="images/user-6.png" alt="Arif Hasan avatar">
+                                            <div class="ce-tm-meta">
+                                                <div class="ce-tm-name">Arif Hasan</div>
+                                                <div class="ce-tm-stars" aria-label="5 out of 5 stars">
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                    <ion-icon class="ce-tm-star is-fill" name="star"></ion-icon>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+            
+                            </div>
+                        </div>
+            
+                        <div class="ce-tm-dots" aria-label="Testimonials pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============== SECTION TESTIMONIALS END =============== -->
+
+
+            <!--  =============== SECTION FAQ START =============== -->
+            <section class="ce-faq" id="faq" aria-label="Frequently Asked Questions">
+                <img class="ce-faq-bg ce-faq-bg--left" src="images/faq-circle-left.png" alt="" aria-hidden="true">
+                <img class="ce-faq-bg ce-faq-bg--right" src="images/faq-circle-right.png" alt="" aria-hidden="true">
+            
+                <div class="ce-container">
+                    <div class="ce-faq-head">
+                        <div class="ce-faq-badge">
+                            <span class="ce-faq-badgeIcon" aria-hidden="true">
+                                <img src="images/benefit-star.png" alt="Questions icon">
+                            </span>
+                            <span>Questions</span>
+                        </div>
+            
+                        <h2 class="ce-faq-title">Frequently Asked Questions</h2>
+                    </div>
+            
+                    <div class="ce-faq-wrap" data-ce-faq>
+                        <div class="ce-faq-item is-open">
+                            <button class="ce-faq-q" type="button" aria-expanded="true">
+                                <span>What is CashEase?</span>
+                                <span class="ce-faq-ico" aria-hidden="true">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </span>
+                            </button>
+            
+                            <div class="ce-faq-a" role="region">
+                                <div class="ce-faq-aInner">
+                                    CashEase is an e-wallet app that allows you to store money, make payments, and perform other
+                                    financial
+                                    transactions electronically through your mobile device.
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="ce-faq-item">
+                            <button class="ce-faq-q" type="button" aria-expanded="false">
+                                <span>How do I download and install the CashEase app?</span>
+                                <span class="ce-faq-ico" aria-hidden="true">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </span>
+                            </button>
+                            <div class="ce-faq-a" role="region">
+                                <div class="ce-faq-aInner">
+                                    You can download CashEase from the Google Play Store or Apple App Store. Install the app, create
+                                    an account,
+                                    and follow the on-screen steps to verify your details and start using it.
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="ce-faq-item">
+                            <button class="ce-faq-q" type="button" aria-expanded="false">
+                                <span>Can I transfer money from CashEase to my bank account?</span>
+                                <span class="ce-faq-ico" aria-hidden="true">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </span>
+                            </button>
+                            <div class="ce-faq-a" role="region">
+                                <div class="ce-faq-aInner">
+                                    Yes. You can link your bank account and transfer funds securely. Transfer times may vary
+                                    depending on your
+                                    bank and verification status.
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="ce-faq-item">
+                            <button class="ce-faq-q" type="button" aria-expanded="false">
+                                <span>Is CashEase compatible with all types of devices?</span>
+                                <span class="ce-faq-ico" aria-hidden="true">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </span>
+                            </button>
+                            <div class="ce-faq-a" role="region">
+                                <div class="ce-faq-aInner">
+                                    CashEase supports most modern Android and iOS devices. For the best experience, keep your OS
+                                    updated and use
+                                    the latest app version.
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="ce-faq-item">
+                            <button class="ce-faq-q" type="button" aria-expanded="false">
+                                <span>How can I contact CashEase customer support if I encounter issues?</span>
+                                <span class="ce-faq-ico" aria-hidden="true">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </span>
+                            </button>
+                            <div class="ce-faq-a" role="region">
+                                <div class="ce-faq-aInner">
+                                    You can reach support via in-app chat, email, or the contact form on our website. We’re
+                                    available 24/7 to help
+                                    you with any issues.
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            <!--  =============== SECTION FAQ END =============== -->
+
+
+            <!-- =============== SECTION CTA START =============== -->
+            <section class="ce-cta" aria-label="Download CashEase CTA">
+                <div class="ce-container">
+
+                    <div class="ce-cta-card">
+                        <img class="ce-cta-bg ce-cta-bg--left" src="images/cta-circle-left.png" alt="" aria-hidden="true">
+                        <img class="ce-cta-bg ce-cta-bg--right" src="images/cta-circle-right.png" alt="" aria-hidden="true">
+
+                        <div class="ce-cta-inner">
+
+                            <div class="ce-cta-left">
+                                <h2 class="ce-cta-title">
+                                    Download &amp; Install CashEase Now and Start Enjoying Digital Payment Convenience!
+                                </h2>
+
+                                <p class="ce-cta-text">
+                                    Register today and access a wide range of fantastic features, including easy transactions,
+                                    quick payments, and efficient financial management.
+                                </p>
+
+                                <div class="ce-cta-stores" aria-label="Download buttons">
+                                    <a class="ce-cta-store" href="#" aria-label="Get CashEase on Google Play">
+                                        <img src="images/google-play.png" alt="Get it on Google Play">
+                                    </a>
+
+                                    <a class="ce-cta-store" href="#" aria-label="Download CashEase on the App Store">
+                                        <img src="images/app-store.png" alt="Download on the App Store">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="ce-cta-right">
+                                <img class="ce-cta-app" src="images/cta-app-combined.png"
+                                    alt="CashEase app preview on mobile screens">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- =============== SECTION CTA END =============== -->
+        </main>
+
+
+        <!--  =============== SECTION FOOTER START  =============== -->
+        <footer class="ce-footer" id="contact" aria-label="CashEase footer">
+            <img class="ce-footer-bg ce-footer-bg--right" src="images/footer-bg-right.png" alt="" aria-hidden="true">
+            <img class="ce-footer-bg ce-footer-bg--left" src="images/footer-bg-left.png" alt="" aria-hidden="true">
+
+            <div class="ce-container">
+                <div class="ce-footer-top">
+                    <a href="#" class="ce-footer-brand" aria-label="CashEase Home">
+                        <img src="images/logo-footer.png" alt="CashEase logo">
+                    </a>
+
+                    <p class="ce-footer-desc">
+                        CashEase is an e-wallet app that allows you to store money, make payments, and perform other financial
+                        transactions electronically through your mobile device.
+                    </p>
+                </div>
+
+                <div class="ce-footer-line"></div>
+
+                <div class="ce-footer-grid">
+                    <div class="ce-footer-col">
+                        <h3 class="ce-footer-hd">COMPANY</h3>
+                        <ul class="ce-footer-links">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#career">Career</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ce-footer-col">
+                        <h3 class="ce-footer-hd">SUPPORT</h3>
+                        <ul class="ce-footer-links">
+                            <li><a href="#">Getting Started</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Server Status</a></li>
+                            <li><a href="#">Report a Bug</a></li>
+                            <li><a href="#">Chat Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ce-footer-col">
+                        <h3 class="ce-footer-hd">PRODUCTS</h3>
+                        <ul class="ce-footer-links">
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#review">Review</a></li>
+                            <li><a href="#update">Update</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ce-footer-col">
+                        <h3 class="ce-footer-hd">DOWNLOADS</h3>
+                        <ul class="ce-footer-links">
+                            <li><a href="#">iOS</a></li>
+                            <li><a href="#">Android</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ce-footer-col ce-footer-news">
+                        <h3 class="ce-footer-hd">SUBSCRIBE TO OUR NEWSLETTER</h3>
+
+                        <p class="ce-footer-newsText">
+                            Subscribe today to receive the latest updates, exclusive content, and valuable insights delivered
+                            right to your inbox.
+                        </p>
+
+                        <form class="ce-footer-form" action="#" method="post">
+                            <label class="ce-sr-only" for="ceFooterEmail">Email address</label>
+                            <input id="ceFooterEmail" class="ce-footer-input" type="email" placeholder="Enter your email"
+                                aria-label="Enter your email" required>
+                            <button class="ce-footer-btn" type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="ce-footer-line ce-footer-line--bottom"></div>
+
+                <div class="ce-footer-bottom">
+                    <p class="ce-footer-copy">Copyright © 2026 CashEase | All Rights Reserved</p>
+
+                    <div class="ce-footer-social" aria-label="Social links">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--  =============== SECTION FOOTER END  =============== -->
+
+
+        <!-- ================= SCRIPT =============== -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
