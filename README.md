@@ -1,11 +1,11 @@
-<img width="502" height="262" alt="Linkedin-Feature" src="https://github.com/user-attachments/assets/813c7c79-f9ff-41d0-877a-022bcf868d71" />
+<img width="1280" height="800" alt="Linkedin-Feature (1)" src="https://github.com/user-attachments/assets/57939001-bd0e-4286-a813-6e13a3cf9a71" />
+
 
 # CashEase — eWallet Landing Page
 
 CashEase is a modern, responsive landing page template for an eWallet product. This project was built as a design-to-code implementation, with an emphasis on layout precision, consistent spacing/typography, and smooth UI interactions using **vanilla front-end technologies**.
 
-**Live Demo:** YOUR_LIVE_DEMO_LINK  
-**Repository:** YOUR_GITHUB_REPO_LINK  
+**Live Demo:** https://unique-rugelach-9464fa.netlify.app/
 
 ---
 
